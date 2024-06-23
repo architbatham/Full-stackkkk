@@ -1,0 +1,22 @@
+body{
+    background-color: bisque;
+}
+img{
+    height: 500px; 
+    width: auto;
+    border: 10px solid rgb(0, 187, 255);
+    border-radius: 50%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    background-color: black;
+}
+h1,h2,h3{
+    color: blueviolet;
+    font-size: 30px;
+}
+p{
+    color: brown;
+}
+form{
+    align-content: center;
+}

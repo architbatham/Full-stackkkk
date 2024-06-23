@@ -1,0 +1,24 @@
+body{
+    background-color: blueviolet;
+}
+
+.Super img{
+    height: 100px;
+    width: auto;
+    border: 10px solid yellow;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+img{
+    height: 300px;
+    width: auto;
+
+}
+.marvel{
+    background-color: black;
+}
+.dc{
+    background-color: bisque;
+    
+}
