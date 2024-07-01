@@ -1,9 +1,14 @@
 import React from 'react'
-import Five from './Component/Five'
+// import Nine from './Component/Nine'
+// import Seven from './Component/Seven'
+// import Five from './Component/Five'
 // import Four from './Component/Four'
 // import Three from './Component/Three'
 // import One from './Component/One'
 // import AddSub from './Component/AddSub'
+// import Six from './Component/Six'
+import Ten from './Component/Ten'
+
 
 export default function App() {
   return (
@@ -12,7 +17,12 @@ export default function App() {
      {/* <AddSub /> */}
      {/* <Three /> */}
      {/* <Four /> */}
-     <Five />
+     {/* <Five /> */}
+     {/* <Six /> */}
+     {/* <Seven /> */}
+     {/* <Nine /> */}
+     <Ten />
+
     </div>
   )
 }
