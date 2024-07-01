@@ -7,7 +7,8 @@ import React from 'react'
 // import One from './Component/One'
 // import AddSub from './Component/AddSub'
 // import Six from './Component/Six'
-import Ten from './Component/Ten'
+// import Ten from './Component/Ten'
+// import Eleven from './Component/Eleven'
 
 
 export default function App() {
@@ -21,7 +22,9 @@ export default function App() {
      {/* <Six /> */}
      {/* <Seven /> */}
      {/* <Nine /> */}
-     <Ten />
+     {/* <Ten /> */}
+     {/* <Eleven /> */}
+
 
     </div>
   )
