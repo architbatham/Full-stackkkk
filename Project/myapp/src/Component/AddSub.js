@@ -1,14 +1,14 @@
-import React, { useState } from 'react'
-
+import React, { useState } from 'react';
+import '../CSS/addsub.css'
 export default function AddSub() {
+  const [count, setCount] = useState(0);
 
-    const[count,setCount] = useState(0);
-    
   return (
-    <div>
-        <button onClick={()=>setCount(count+1)}> + </button>
-        <spam>{count}</spam>
-        <button onClick={()=>setCount(count-1)}> - </button>
+    <div className="container">
+      <h1>Counter app</h1>
+      <button onClick={() => setCount(count + 1)}> + </button>
+      <spam>{count}</spam>
+      <button onClick={() => setCount(count - 1)}> - </button>
     </div>
-  )
+  );
 }
