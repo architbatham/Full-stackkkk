@@ -1,35 +1,4 @@
-<style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 20px;
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-        ol {
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 0;
-            list-style-type: decimal;
-        }
-        li {
-            background-color: #fff;
-            margin: 10px 0;
-            padding: 15px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            transition: transform 0.2s, background-color 0.2s;
-        }
-        li:hover {
-            transform: translateY(-5px);
-            background-color: #f9f9f9;
-        }
-    </style>
-
-    <h1>Project</h1>
+ <h1>Project</h1>
     <ol>
         <li>Hello World</li>
         <li>Counter</li>
