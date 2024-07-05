@@ -1,3 +1,40 @@
+<H1>Project</H1>
+<p>
+  <ol>
+    <li>
+      Hello World
+Counter
+User Input
+Display List
+Toggle Switch
+Fetch Data
+Timer
+Background Colour Change with Click
+Routing 
+Randome Quote
+Upload Image
+Login Registraton 
+Weather API
+Search Iteam
+PAGINATION
+Colour Picker
+Responsive Menu
+Switch Light and Dark Theme
+Shopping Cart
+Counter App using userReducer
+To-Do List using ussReducer
+PAGINATION using userReducer
+User Authentication using useContext
+Draggable Component
+Translation App
+Fetch Multiple API
+Multiple State in One State
+Image Gallery using userReducer
+TO DO App
+Weathe App
+    </li>
+  </ol>
+</p>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
