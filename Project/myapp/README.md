@@ -1,40 +1,73 @@
-<H1>Project</H1>
-<p>
-  <ol>
-    <li>
-      Hello World
-Counter
-User Input
-Display List
-Toggle Switch
-Fetch Data
-Timer
-Background Colour Change with Click
-Routing 
-Randome Quote
-Upload Image
-Login Registraton 
-Weather API
-Search Iteam
-PAGINATION
-Colour Picker
-Responsive Menu
-Switch Light and Dark Theme
-Shopping Cart
-Counter App using userReducer
-To-Do List using ussReducer
-PAGINATION using userReducer
-User Authentication using useContext
-Draggable Component
-Translation App
-Fetch Multiple API
-Multiple State in One State
-Image Gallery using userReducer
-TO DO App
-Weathe App
-    </li>
-  </ol>
-</p>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        ol {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 0;
+            list-style-type: decimal;
+        }
+        li {
+            background-color: #fff;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, background-color 0.2s;
+        }
+        li:hover {
+            transform: translateY(-5px);
+            background-color: #f9f9f9;
+        }
+    </style>
+
+    <h1>Project</h1>
+    <ol>
+        <li>Hello World</li>
+        <li>Counter</li>
+        <li>User Input</li>
+        <li>Display List</li>
+        <li>Toggle Switch</li>
+        <li>Fetch Data</li>
+        <li>Timer</li>
+        <li>Background Colour Change with Click</li>
+        <li>Routing</li>
+        <li>Random Quote</li>
+        <li>Upload Image</li>
+        <li>Login Registration</li>
+        <li>Weather API</li>
+        <li>Search Item</li>
+        <li>Pagination</li>
+        <li>Colour Picker</li>
+        <li>Responsive Menu</li>
+        <li>Switch Light and Dark Theme</li>
+        <li>Shopping Cart</li>
+        <li>Counter App using useReducer</li>
+        <li>To-Do List using useReducer</li>
+        <li>Pagination using useReducer</li>
+        <li>User Authentication using useContext</li>
+        <li>Draggable Component</li>
+        <li>Translation App</li>
+        <li>Fetch Multiple APIs</li>
+        <li>Multiple State in One State</li>
+        <li>Image Gallery using useReducer</li>
+        <li>TO DO App</li>
+        <li>Weather App</li>
+    </ol>
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
