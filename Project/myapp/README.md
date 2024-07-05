@@ -1,11 +1,36 @@
-<h1 style="color: #333;">Project</h1>
-    <ol style="max-width: 600px; margin: 0 auto; padding: 0; list-style-type: decimal;">
-        <li style="background-color: #fff; margin: 10px 0; padding: 15px; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); transition: transform 0.2s, background-color 0.2s;" onmouseover="this.style.transform='translateY(-5px)'; this.style.backgroundColor='#f9f9f9';" onmouseout="this.style.transform=''; this.style.backgroundColor='#fff';">Hello World</li>
-        <li style="background-color: #fff; margin: 10px 0; padding: 15px; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); transition: transform 0.2s, background-color 0.2s;" onmouseover="this.style.transform='translateY(-5px)'; this.style.backgroundColor='#f9f9f9';" onmouseout="this.style.transform=''; this.style.backgroundColor='#fff';">Counter</li>
-        <!-- Repeat the same style inline for each <li> -->
-        <!-- You can copy and paste the same inline style attributes for each list item -->
+<h1>Project</h1>
+    <ol>
+        <li>Hello World</li>
+        <li>Counter</li>
+        <li>User Input</li>
+        <li>Display List</li>
+        <li>Toggle Switch</li>
+        <li>Fetch Data</li>
+        <li>Timer</li>
+        <li>Background Colour Change with Click</li>
+        <li>Routing</li>
+        <li>Random Quote</li>
+        <li>Upload Image</li>
+        <li>Login Registration</li>
+        <li>Weather API</li>
+        <li>Search Item</li>
+        <li>Pagination</li>
+        <li>Colour Picker</li>
+        <li>Responsive Menu</li>
+        <li>Switch Light and Dark Theme</li>
+        <li>Shopping Cart</li>
+        <li>Counter App using useReducer</li>
+        <li>To-Do List using useReducer</li>
+        <li>Pagination using useReducer</li>
+        <li>User Authentication using useContext</li>
+        <li>Draggable Component</li>
+        <li>Translation App</li>
+        <li>Fetch Multiple APIs</li>
+        <li>Multiple State in One State</li>
+        <li>Image Gallery using useReducer</li>
+        <li>TO DO App</li>
+        <li>Weather App</li>
     </ol>
-
 
 
 
