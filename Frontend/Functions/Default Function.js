@@ -5,18 +5,18 @@ console.log("Before");
 
 function myapp(a,b){
 
-    // var a,b,c;
-    // a=10;
-    // b=20;
-    c=a+b;
-    console.log("Sum of a and b is = "+  c);
-}
-
- var a,b,c;
+    var a,b,c;
     a=10;
     b=20;
-    myapp(a,b);
+    c=a+b;
+    
+}
 
+//  var a,b,c;
+//     a=10;
+//     b=20;
+    myapp();
+console.log("Sum of a and b is = "+  c);
 
 
 
