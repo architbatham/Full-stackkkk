@@ -1,11 +1,15 @@
 console.log("Before");
 
-function demo(cd){
+function demo(a,b,cd){
     console.log("Demo function invoke");
-    setTimeout(cd,2000)
+    var c = a+b;
+    cd(c);
 }
-demo(()=>{
-    console.log("Call back function");
+var a,b;
+a=10;
+b=20;
+demo(a,b,(ret)=>{
+    console.log("Call back function"+"="+ret);
 });
 
 console.log("After");
