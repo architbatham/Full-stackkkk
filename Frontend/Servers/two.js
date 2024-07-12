@@ -3,7 +3,7 @@ import http from 'http';
 http.createServer((req,res)=>{
 
     var msg="";
-    if(req.url=="/" || req.url=="home")
+    if(req.url=="/" || req.url=="/home")
     msg="<h1>/or/home url invoke</h1>";
 
     else if(req.url=="/about")
