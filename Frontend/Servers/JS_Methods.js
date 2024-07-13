@@ -19,8 +19,16 @@ http.createServer((req,res)=>{
 
    else if(urlobj.pathname=="/service")
     {
-        console.log(req.method);
-        msg="<h1>SERVICE</h1>";
+        if(req.method=='GET')
+        msg="<h1>Service url invoke method is GET</h1>";
+        else if(req.method=='POST')
+        msg="<h1>Service url invoke method is POST</h1>";
+        else if(req.method=='PPATCH')
+        msg="<h1>Service url invoke method is PATCH</h1>";
+        else if(req.method=='DELETE')
+        msg="<h1>Service url invoke method is DELETE</h1>";
+        else 
+        msg="<h1>Service url invoke method is Anonymous</h1>"
     }
 
    else if(urlobj.pathname=="/register")
