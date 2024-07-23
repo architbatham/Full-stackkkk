@@ -1,24 +1,15 @@
-const express = require('express')
+import express from "express";
 const app = express();
 
-app.use((req,res, next)=>{
-    console.log("middle wher 1");
-next();
 
-});
+//to load ulr routers
+import IndexRouter from './router/index.router.js';
+import AdminRouter from './router/admin.router.js';
 
-app.get('/',(req,res)=>{
-res.send('Hello');
-console.log("middle wher 1");
-});
+// rout level middleware
+app.use('/',IndexRouter);
+app.use('/admin',AdminRouter);
 
-app.get('/about',(req,res)=>{
-    res.send('about page');
-});
-
-app.get('/contact/:username',(req,res)=>{
-    res.send(`hello from ${req.params.username}`);
-});
-
-console.log("Server invoked on http://localhost:3000/")
 app.listen(3000);
+console.log("Server invoked on http://localhost:3000")
+
