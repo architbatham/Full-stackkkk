@@ -32,3 +32,4 @@ app.get("/login",(req,res)=>{
 });
 app.listen(3000);
 console.log("Server invoked http://localhost:3000");
+console.log("Server invoked http://localhost:3000");
